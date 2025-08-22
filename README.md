@@ -1,80 +1,64 @@
-<!-- Hero -->
 <p align="center">
-  <img src="assets/cover.png" alt="Data Visualization banner" width="100%" />
+  <img src="assets/banner.png" alt="Data Visualization Portfolio" width="100%" />
 </p>
 
-<h1 align="center">Hi, I'm Camille Campbell 👋</h1>
+<h1 align="center">✨ Camille Campbell ✨</h1>
 <p align="center">
-  <b>Power BI Developer • Data Visualization Specialist • SQL/DAX/SSRS</b><br/>
-  Los Angeles, CA · <a href="mailto:camillecampbell95@gmail.com">camillecampbell95@gmail.com</a> · (312) 343-7631
-</p>
-
-<p align="center">
-  <a href="https://img.shields.io/badge/Power%20BI-Expert-000000.svg"><img src="https://img.shields.io/badge/Power%20BI-Expert-000000.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/SQL-Advanced-000000.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/DAX-Advanced-000000.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/SSRS-Experienced-000000.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Azure%20DevOps-Workflow-000000.svg" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Certification-PL--300-000000.svg" /></a>
+  <b>Data Visualization • Business Intelligence • Storytelling with Data</b><br/>
 </p>
 
 ---
 
-## 🎯 What I Do
-I turn messy, high-volume data into clear, actionable visuals. I design performant data models, write robust SQL/DAX, and ship dashboards that leaders actually use to make decisions—in real time.
+## 👩🏽‍💻 About
+Welcome to my GitHub! I specialize in transforming complex datasets into **clear, engaging, and actionable visuals**.  
+This repository is the gateway to my **portfolio website**, where I’ll showcase:
 
-- Design & enhance Power BI dashboards with advanced DAX and optimized models  
-- Build SQL Server stored procedures and ETL automations for reliable datasets  
-- Maintain enterprise reporting (400+ SSRS reports & subscriptions)  
-- Collaborate across data architecture, development, and stakeholders for seamless delivery
-
-> Toolbelt: **Power BI, SQL Server, DAX, SSRS, Azure DevOps, JIRA, Python, R, Looker**
-
----
-
-## 🧪 Featured Visual Projects
-> Replace preview images with your own thumbnails (export PNGs) and link to public reports or GIF demos.
-
-<table>
-  <tr>
-    <td width="33%">
-      <a href="projects/turnpike-ops/README.md">
-        <img src="projects/turnpike-ops/cover.png" alt="Turnpike Ops Dashboard" />
-        <h4>Turnpike Ops KPIs</h4>
-      </a>
-      <p>Real-time operational metrics with role-based drill-downs, optimized with calculation groups.</p>
-      <code>Power BI · DAX · SQL Server</code>
-    </td>
-    <td width="33%">
-      <a href="projects/opm-hiring/README.md">
-        <img src="projects/opm-hiring/cover.png" alt="OPM Hiring Pipeline" />
-        <h4>Gov Hiring Pipeline</h4>
-      </a>
-      <p>Funnel analytics, time-to-fill trends, and interactive drill-through for bottleneck analysis.</p>
-      <code>Power BI · DAX · Python ETL</code>
-    </td>
-    <td width="33%">
-      <a href="projects/marketing-ab/README.md">
-        <img src="projects/marketing-ab/cover.png" alt="Marketing A/B Dashboard" />
-        <h4>Marketing A/B Uplift</h4>
-      </a>
-      <p>Experiment tracking, cohort views, and uplift calculations across omni-channel campaigns.</p>
-      <code>Power BI · SQL · DAX</code>
-    </td>
-  </tr>
-</table>
+- **Interactive Dashboards** → Power BI, Looker, Tableau  
+- **Analytics Projects** → SQL, DAX, Python, R  
+- **Case Studies** → Real-world business problems solved through data visualization  
+- **Design Systems** → Color palettes, layout patterns, and accessible data storytelling  
 
 ---
 
-## 🧱 Data Modeling & DAX Patterns
-- **Star schemas** with surrogate keys, incremental refresh, and composite models where needed  
-- **Calculation groups** for time intelligence and dynamic formatting  
-- **Row-level security (RLS)** for safe cross-department sharing  
-- **Performance**: VertiPaq Analyzer, measure branching, minimized bi-directional filters
+## 🎨 What to Expect on the Website
+🌐 **Portfolio Website** (launching soon):  
+- A curated gallery of **BI dashboards and reports**  
+- **Before & After case studies** showing the power of visual storytelling  
+- A collection of **DAX/SQL snippets and modeling patterns**  
+- **Downloadable resume** + professional background  
 
-```DAX
--- Example: Reusable YoY pattern with calculation group compatibility
-YoY % =
-VAR Cur = [Total KPI]
-VAR Prev = CALCULATE([Total KPI], DATEADD('Date'[Date], -1, YEAR))
-RETURN DIVIDE(Cur - Prev, Prev)
+---
+
+## 📊 Skills at a Glance
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-Expert-FFB81C?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/SQL-Advanced-336791?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/DAX-Advanced-1F6FEB?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/SSRS-Experienced-6A1B9A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-Data%20Analytics-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Looker-Visualization-FF6F00?style=for-the-badge&logo=looker&logoColor=white" />
+</p>
+
+---
+
+## 🚀 Stay Tuned
+This README is just the **teaser**.  
+The full experience will live on the portfolio website with interactive dashboards and polished case studies.  
+
+<p align="center">
+  <b>➡️ Coming Soon: <a href="#">camillecampbell.dev</a></b>
+</p>
+
+---
+
+## 📬 Connect
+- **Email:** [camillecampbell95@gmail.com](mailto:camillecampbell95@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/camillecampbell](#)  
+- **Portfolio (soon):** [camillecampbell.dev](#)
+
+---
+
+<p align="center">
+  <i>Data is only as powerful as the story it tells — I turn numbers into narratives.</i>
+</p>
+
